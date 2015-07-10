@@ -31,6 +31,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/favicon\/favicon-16x16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 332,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-16x16.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-16x16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-32x32.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 458,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-32x32.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-32x32.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/placeholder1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

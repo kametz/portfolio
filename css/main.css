@@ -1927,11 +1927,12 @@ h1 {
 #opener {
   color: #4d4d4d;
   font-size: 1.4em;
-  margin-bottom: 10px;
+  margin: 0 15px 10px 15px;
   padding-top: 10px; }
 
 .project {
   height: 350px;
+  margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 10px; }
 
@@ -1948,14 +1949,16 @@ h1 {
   height: 100px;
   text-align: center; }
 
-.about {
+#about {
   background-color: #4d4d4d;
   margin: 30px 0;
   padding: 10px;
   padding-bottom: 20px; }
-  .about img {
+  #about img {
     height: 150px;
     width: 150px;
     margin-top: 15px; }
-  .about p {
+  #about p {
     color: white; }
+  #about #to-top {
+    float: right; }
