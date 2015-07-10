@@ -1691,7 +1691,8 @@ body {
   background-color: #CD3842;
   border: 1px solid #fff;
   color: #fff;
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  margin: 0 2px; }
 
 /* Minimum screen size for Medium screen */
 /* Container width for the custom grid. */
@@ -1908,6 +1909,7 @@ h1 {
 #header {
   min-height: 70px;
   background-color: #4d4d4d;
+  margin-bottom: 10px;
   text-align: center; }
   @media (min-width: 768px) {
     #header {
@@ -1925,6 +1927,7 @@ h1 {
 #opener {
   color: #4d4d4d;
   font-size: 1.4em;
+  margin-bottom: 10px;
   padding-top: 10px; }
 
 .project {
@@ -1944,3 +1947,15 @@ h1 {
   border-top: 1px solid #CD3842;
   height: 100px;
   text-align: center; }
+
+.about {
+  background-color: #4d4d4d;
+  margin: 30px 0;
+  padding: 10px;
+  padding-bottom: 20px; }
+  .about img {
+    height: 150px;
+    width: 150px;
+    margin-top: 15px; }
+  .about p {
+    color: white; }
