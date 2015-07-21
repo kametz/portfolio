@@ -31,6 +31,23 @@
 
 .pagination {
   padding-top: 25px;
+    a {
+      background-color: lighten($deep1, 40%);
+    }
+    .page-buttons {
+      display: none;
+      @media (min-width: $screen-sm) {
+        display: initial;
+        position: absolute;
+        right: 15px;
+      }
+    }
+    .page-buttons-sm {
+   
+      @media (min-width: $screen-sm) {
+        display: none;
+      }
+    }
 }
 
 .image-detail {
