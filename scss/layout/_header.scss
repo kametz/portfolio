@@ -1,8 +1,15 @@
 #header {
   min-height: 70px;
   background-color: $deep1;
-  margin-bottom: 10px;
+  background-image: url("../img/header.png");
+  
   text-align: center;
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.35);
+  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.35);
+  h1 {
+    margin-top: 15px;
+  }
   @media (min-width: $screen-sm-min) { 
     text-align: left;
   }

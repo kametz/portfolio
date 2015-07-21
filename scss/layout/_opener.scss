@@ -1,6 +1,16 @@
 #opener {
-  color: $deep1;
+  background-color: lighten($deep1, 20%); 
+  color: white;
   font-size: 1.4em;
-  margin: 0 15px 10px 15px;
-  padding-top: 10px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding: 2%;
+
+  .hello {
+    color: lighten($yellow, 30%);
+    font-family: $accent;
+    font-size: 30px;
+    line-height: 16px;
+    margin-right: 5px;
+  }
 }

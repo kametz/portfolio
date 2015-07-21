@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'sharpeyeregular';
+  src: url('../fonts/sharpeye-webfont.eot');
+  src: url('../fonts/sharpeye-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/sharpeye-webfont.woff2') format('woff2'),
+       url('../fonts/sharpeye-webfont.woff') format('woff'),
+       url('../fonts/sharpeye-webfont.ttf') format('truetype'),
+       url('../fonts/sharpeye-webfont.svg#sharpeyeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+$accent: "ff-market-web", sans-serif;
+
 h1,
 h2,
 h3,
@@ -13,11 +29,16 @@ body {
   font-family: "jaf-bernino-sans-condensed",sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: white;
+  color: $deep1;
 }
 
 h1 {
   color: white;
+  font-family: $accent;
+}
+
+h2 {
+  font-family: $accent;
 }
 
 /* Project Section */

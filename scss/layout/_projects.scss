@@ -1,5 +1,6 @@
+/* Front Page */
+
 .project {
-  height: 350px;
   margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -7,7 +8,6 @@
 
 .project-image {
   overflow: hidden;
-  height: 240px;
   img {
     width: 100%;
   }
@@ -16,10 +16,28 @@
 .description { 
   color: $deep1;
   display: block; 
-  border-top: 1px solid $red;
   height: 100px;
   text-align: center;
 }
+
+/* Detail Page */
+
+.project-title {
+  padding-top: 5px;
+}
+
+.image-detail {
+  padding: 10px 10px 20px 10px;
+}
+
+.description-detail {
+  padding-bottom: 20px;
+}
+
+
+
+
+
 
 
 

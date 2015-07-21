@@ -2,6 +2,39 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19033",
 "files": {
+	"\/assets\/psd\/projects\/_minexpo\/P9240905.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.36903e+06,
+		"inputAbbreviatedPath": "\/assets\/psd\/projects\/_minexpo\/P9240905.jpg",
+		"outputAbbreviatedPath": "\/assets\/psd\/projects\/_minexpo\/P9240905.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/psd\/projects\/_wts\/4pretty-purple-paisley-225x300.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22701,
+		"inputAbbreviatedPath": "\/assets\/psd\/projects\/_wts\/4pretty-purple-paisley-225x300.jpg",
+		"outputAbbreviatedPath": "\/assets\/psd\/projects\/_wts\/4pretty-purple-paisley-225x300.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/psd\/projects\/_wts\/michelle1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59564,
+		"inputAbbreviatedPath": "\/assets\/psd\/projects\/_wts\/michelle1.jpg",
+		"outputAbbreviatedPath": "\/assets\/psd\/projects\/_wts\/michelle1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -20,13 +53,35 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/background.jpg": {
+	"\/img\/about\/km.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 109503,
-		"inputAbbreviatedPath": "\/img\/background.jpg",
-		"outputAbbreviatedPath": "\/img\/background.jpg",
+		"initialSize": 16959,
+		"inputAbbreviatedPath": "\/img\/about\/km.jpg",
+		"outputAbbreviatedPath": "\/img\/about\/km.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/about\/km1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18023,
+		"inputAbbreviatedPath": "\/img\/about\/km1.jpg",
+		"outputAbbreviatedPath": "\/img\/about\/km1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/background1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18237,
+		"inputAbbreviatedPath": "\/img\/background1.png",
+		"outputAbbreviatedPath": "\/img\/background1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -53,6 +108,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17854,
+		"inputAbbreviatedPath": "\/img\/header.png",
+		"outputAbbreviatedPath": "\/img\/header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/opener.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15851,
+		"inputAbbreviatedPath": "\/img\/opener.png",
+		"outputAbbreviatedPath": "\/img\/opener.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/opener1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22483,
+		"inputAbbreviatedPath": "\/img\/opener1.png",
+		"outputAbbreviatedPath": "\/img\/opener1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/placeholder1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -60,6 +148,72 @@
 		"initialSize": 12604,
 		"inputAbbreviatedPath": "\/img\/placeholder1.jpg",
 		"outputAbbreviatedPath": "\/img\/placeholder1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/elko.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184889,
+		"inputAbbreviatedPath": "\/img\/projects\/elko.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/elko.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/factbook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107070,
+		"inputAbbreviatedPath": "\/img\/projects\/factbook.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/factbook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/jottly.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106976,
+		"inputAbbreviatedPath": "\/img\/projects\/jottly.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/jottly.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/minexpo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198752,
+		"inputAbbreviatedPath": "\/img\/projects\/minexpo.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/minexpo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/paycrave.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153637,
+		"inputAbbreviatedPath": "\/img\/projects\/paycrave.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/paycrave.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/wts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153713,
+		"inputAbbreviatedPath": "\/img\/projects\/wts.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/wts.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1664,6 +1818,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/projects\/paycrave.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/projects\/paycrave.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/scss\/base\/_breaks.scss": {
 		"createSourceMap": 0,

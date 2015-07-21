@@ -1,12 +1,8 @@
 /*  Portfolio: Bootstrap & Sass */
 /* Variables */
 /* Color */
+/* Breakpoints */
 /* Custom Breakpoints */
-/* Custom Container */
-/* Intermediate small screen */
-/* Minimum screen size for the custom grid. */
-/* Maximum screen size for the custom grid. */
-/* Maximum screen size for Extra small screen */
 /* Bootstrap */
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -440,7 +436,7 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4; }
-  @media (min-width: 768px) {
+  @media (min-width: 600px) {
     .lead {
       font-size: 21px; } }
 
@@ -600,7 +596,7 @@ dd {
   display: table; }
 .dl-horizontal dd:after {
   clear: both; }
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -728,15 +724,15 @@ pre {
     display: table; }
   .container:after {
     clear: both; }
-  @media (min-width: 768px) {
+  @media (min-width: 600px) {
     .container {
-      width: 750px; } }
-  @media (min-width: 992px) {
+      width: 580px; } }
+  @media (min-width: 800px) {
     .container {
-      width: 970px; } }
-  @media (min-width: 1200px) {
+      width: 780px; } }
+  @media (min-width: 1000px) {
     .container {
-      width: 1170px; } }
+      width: 980px; } }
 
 .container-fluid {
   margin-right: auto;
@@ -920,7 +916,7 @@ pre {
 .col-xs-offset-12 {
   margin-left: 100%; }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
 
@@ -1076,7 +1072,7 @@ pre {
 
   .col-sm-offset-12 {
     margin-left: 100%; } }
-@media (min-width: 992px) {
+@media (min-width: 800px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
 
@@ -1232,7 +1228,7 @@ pre {
 
   .col-md-offset-12 {
     margin-left: 100%; } }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left; }
 
@@ -1682,10 +1678,14 @@ input[type="button"].btn-block {
 /* @import "bootstrap/responsive-utilities"; */
 /* Base Styles */
 body {
-  background-image: url("../img/background.jpg"); }
+  background-image: url("../img/background1.png"); }
 
+/* Background pattern from subtlepatterns.com */
 .container {
-  background-color: white; }
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75); }
 
 .btn-default {
   background-color: #CD3842;
@@ -1694,194 +1694,12 @@ body {
   font-size: 1.3em;
   margin: 0 2px; }
 
-/* Minimum screen size for Medium screen */
-/* Container width for the custom grid. */
-@media (min-width: 480px) and (max-width: 767px) {
-  .container {
-    width: 460px; } }
-
-/* Function that creates the custom grid */
-@media (min-width: 480px) and (max-width: 767px) {
-  .col-is-1, .col-is-2, .col-is-3, .col-is-4, .col-is-5, .col-is-6, .col-is-7, .col-is-8, .col-is-9, .col-is-10, .col-is-11, .col-is-12 {
-    float: left; }
-
-  .col-is-1 {
-    width: 8.3333333333%; }
-
-  .col-is-2 {
-    width: 16.6666666667%; }
-
-  .col-is-3 {
-    width: 25%; }
-
-  .col-is-4 {
-    width: 33.3333333333%; }
-
-  .col-is-5 {
-    width: 41.6666666667%; }
-
-  .col-is-6 {
-    width: 50%; }
-
-  .col-is-7 {
-    width: 58.3333333333%; }
-
-  .col-is-8 {
-    width: 66.6666666667%; }
-
-  .col-is-9 {
-    width: 75%; }
-
-  .col-is-10 {
-    width: 83.3333333333%; }
-
-  .col-is-11 {
-    width: 91.6666666667%; }
-
-  .col-is-12 {
-    width: 100%; }
-
-  .col-is-pull-0 {
-    right: auto; }
-
-  .col-is-pull-1 {
-    right: 8.3333333333%; }
-
-  .col-is-pull-2 {
-    right: 16.6666666667%; }
-
-  .col-is-pull-3 {
-    right: 25%; }
-
-  .col-is-pull-4 {
-    right: 33.3333333333%; }
-
-  .col-is-pull-5 {
-    right: 41.6666666667%; }
-
-  .col-is-pull-6 {
-    right: 50%; }
-
-  .col-is-pull-7 {
-    right: 58.3333333333%; }
-
-  .col-is-pull-8 {
-    right: 66.6666666667%; }
-
-  .col-is-pull-9 {
-    right: 75%; }
-
-  .col-is-pull-10 {
-    right: 83.3333333333%; }
-
-  .col-is-pull-11 {
-    right: 91.6666666667%; }
-
-  .col-is-pull-12 {
-    right: 100%; }
-
-  .col-is-push-0 {
-    left: auto; }
-
-  .col-is-push-1 {
-    left: 8.3333333333%; }
-
-  .col-is-push-2 {
-    left: 16.6666666667%; }
-
-  .col-is-push-3 {
-    left: 25%; }
-
-  .col-is-push-4 {
-    left: 33.3333333333%; }
-
-  .col-is-push-5 {
-    left: 41.6666666667%; }
-
-  .col-is-push-6 {
-    left: 50%; }
-
-  .col-is-push-7 {
-    left: 58.3333333333%; }
-
-  .col-is-push-8 {
-    left: 66.6666666667%; }
-
-  .col-is-push-9 {
-    left: 75%; }
-
-  .col-is-push-10 {
-    left: 83.3333333333%; }
-
-  .col-is-push-11 {
-    left: 91.6666666667%; }
-
-  .col-is-push-12 {
-    left: 100%; }
-
-  .col-is-offset-0 {
-    margin-left: 0%; }
-
-  .col-is-offset-1 {
-    margin-left: 8.3333333333%; }
-
-  .col-is-offset-2 {
-    margin-left: 16.6666666667%; }
-
-  .col-is-offset-3 {
-    margin-left: 25%; }
-
-  .col-is-offset-4 {
-    margin-left: 33.3333333333%; }
-
-  .col-is-offset-5 {
-    margin-left: 41.6666666667%; }
-
-  .col-is-offset-6 {
-    margin-left: 50%; }
-
-  .col-is-offset-7 {
-    margin-left: 58.3333333333%; }
-
-  .col-is-offset-8 {
-    margin-left: 66.6666666667%; }
-
-  .col-is-offset-9 {
-    margin-left: 75%; }
-
-  .col-is-offset-10 {
-    margin-left: 83.3333333333%; }
-
-  .col-is-offset-11 {
-    margin-left: 91.6666666667%; }
-
-  .col-is-offset-12 {
-    margin-left: 100%; } }
-/* Add visibility "visible-is" class for the custom grid */
-@media (min-width: 480px) and (max-width: 767px) {
-  .visible-is {
-    display: block !important; }
-
-  table.visible-is {
-    display: table !important; }
-
-  tr.visible-is {
-    display: table-row !important; }
-
-  th.visible-is,
-  td.visible-is {
-    display: table-cell !important; } }
-/* Add hidden "hidden-is" class for the custom grid */
-@media (min-width: 480px) and (max-width: 767px) {
-  .hidden-is {
-    display: none !important; } }
-/* Define the "visible-is" class as hidden in all other grid widths */
-@media (min-width: 768px) {
-  .visible-is {
-    display: none !important; } }
-@media (max-width: 479px) {
-  .visible-is {
-    display: none !important; } }
+@font-face {
+  font-family: 'sharpeyeregular';
+  src: url("../fonts/sharpeye-webfont.eot");
+  src: url("../fonts/sharpeye-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sharpeye-webfont.woff2") format("woff2"), url("../fonts/sharpeye-webfont.woff") format("woff"), url("../fonts/sharpeye-webfont.ttf") format("truetype"), url("../fonts/sharpeye-webfont.svg#sharpeyeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 h1,
 h2,
 h3,
@@ -1896,10 +1714,14 @@ body {
   font-family: "jaf-bernino-sans-condensed",sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: white; }
+  color: #535353; }
 
 h1 {
-  color: white; }
+  color: white;
+  font-family: "ff-market-web", sans-serif; }
+
+h2 {
+  font-family: "ff-market-web", sans-serif; }
 
 /* Project Section */
 .project-title {
@@ -1908,16 +1730,21 @@ h1 {
 /* Layout */
 #header {
   min-height: 70px;
-  background-color: #4d4d4d;
-  margin-bottom: 10px;
-  text-align: center; }
-  @media (min-width: 768px) {
+  background-color: #535353;
+  background-image: url("../img/header.png");
+  text-align: center;
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.35); }
+  #header h1 {
+    margin-top: 15px; }
+  @media (min-width: 600px) {
     #header {
       text-align: left; } }
 
 #nav-buttons {
   padding-bottom: 15px; }
-  @media (min-width: 768px) {
+  @media (min-width: 600px) {
     #nav-buttons {
       padding-bottom: 0;
       position: absolute;
@@ -1925,35 +1752,54 @@ h1 {
       right: 15px; } }
 
 #opener {
-  color: #4d4d4d;
+  background-color: #868686;
+  color: white;
   font-size: 1.4em;
-  margin: 0 15px 10px 15px;
-  padding-top: 10px; }
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding: 2%; }
+  #opener .hello {
+    color: #fffbd0;
+    font-family: "ff-market-web", sans-serif;
+    font-size: 30px;
+    line-height: 16px;
+    margin-right: 5px; }
 
+/* Front Page */
 .project {
-  height: 350px;
   margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 10px; }
 
 .project-image {
-  overflow: hidden;
-  height: 240px; }
+  overflow: hidden; }
   .project-image img {
     width: 100%; }
 
 .description {
-  color: #4d4d4d;
+  color: #535353;
   display: block;
-  border-top: 1px solid #CD3842;
   height: 100px;
   text-align: center; }
 
+/* Detail Page */
+.project-title {
+  padding-top: 5px; }
+
+.image-detail {
+  padding: 10px 10px 20px 10px; }
+
+.description-detail {
+  padding-bottom: 20px; }
+
 #about {
-  background-color: #4d4d4d;
+  background-color: #535353;
+  background-image: url("../img/header.png");
   margin: 30px 0;
   padding: 10px;
   padding-bottom: 20px; }
+  #about #about-title {
+    color: #fffbd0; }
   #about img {
     height: 150px;
     width: 150px;
