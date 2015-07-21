@@ -1716,6 +1716,9 @@ body {
   font-weight: 400;
   color: #535353; }
 
+a:hover {
+  text-decoration: none; }
+
 h1 {
   color: white;
   font-family: "ff-market-web", sans-serif; }
@@ -1783,14 +1786,21 @@ h2 {
   text-align: center; }
 
 /* Detail Page */
-.project-title {
-  padding-top: 5px; }
+#project-detail .project-title {
+  padding-top: 5px;
+  border-bottom: 1px solid #535353; }
+
+.pagination {
+  padding-top: 25px; }
 
 .image-detail {
   padding: 10px 10px 20px 10px; }
 
 .description-detail {
-  padding-bottom: 20px; }
+  padding: 20px 10px; }
+  .description-detail p:not(:first-child) {
+    padding-left: 30px;
+    padding-right: 30px; }
 
 #about {
   background-color: #535353;

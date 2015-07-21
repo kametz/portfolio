@@ -32,6 +32,10 @@ body {
   color: $deep1;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 h1 {
   color: white;
   font-family: $accent;

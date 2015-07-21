@@ -22,8 +22,15 @@
 
 /* Detail Page */
 
-.project-title {
-  padding-top: 5px;
+#project-detail {
+  .project-title {
+    padding-top: 5px;
+    border-bottom: 1px solid $deep1;
+  }
+}
+
+.pagination {
+  padding-top: 25px;
 }
 
 .image-detail {
@@ -31,7 +38,11 @@
 }
 
 .description-detail {
-  padding-bottom: 20px;
+  padding: 20px 10px;
+  p:not(:first-child) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 
